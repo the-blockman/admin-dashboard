@@ -25,3 +25,61 @@ li {
 
 .content {
 }
+
+header {
+  padding: 20px 40px;
+  display: grid;
+  row-gap: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+#icon {
+  width: 20px;
+}
+
+.avatar-wrapper {
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  background-color: beige;
+}
+
+input {
+  width: 450px;
+  height: 24px;
+  border-radius: 24px;
+  border: none;
+  background-color: lightgrey;
+}
+
+.avatar-wrapper-big {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: beige;
+}
+
+button {
+  padding: 6px 20px;
+  border-radius: 16px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
