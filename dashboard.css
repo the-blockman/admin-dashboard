@@ -16,7 +16,7 @@ body {
   color: white;
   align-content: start;
   row-gap: 50px;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 li {
@@ -27,7 +27,7 @@ li {
 }
 
 header {
-  padding: 20px 40px;
+  padding: 10px 40px;
   display: grid;
   row-gap: 16px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -66,7 +66,7 @@ input {
   height: 24px;
   border-radius: 24px;
   border: none;
-  background-color: lightgrey;
+  background-color: #e8ecf0;
 }
 
 .avatar-wrapper-big {
@@ -82,4 +82,18 @@ button {
   border: none;
   background-color: blue;
   color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding: 20px;
+  background-color: #e8ecf0;
+  height: 100vh;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
