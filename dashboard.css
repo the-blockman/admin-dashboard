@@ -18,7 +18,7 @@ h1 {
 }
 
 .side-bar {
-  background-color: blue;
+  background-color: #1976d2;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto auto auto;
@@ -112,7 +112,7 @@ button {
   padding: 6px 20px;
   border-radius: 16px;
   border: none;
-  background-color: blue;
+  background-color: #1976d2;
   color: white;
 }
 
