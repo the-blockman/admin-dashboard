@@ -20,12 +20,13 @@ A front-end recreation of an admin dashboard UI, focusing on CSS Grid and Flexbo
 
 ## Getting Started
 
-Clone the repository and open `dashboard.html` in your browser. No dependencies or build tools required.
+Clone the repository and open `index.html` in your browser. No dependencies or build tools required.
 
 ## Project Structure
 
 ```
-├── dashboard.html
+├── index.html
+├── dashboard.css
 ├── dashboard.css
 └── assets/
     ├── icons/
