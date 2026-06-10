@@ -8,22 +8,44 @@ body {
   grid-template-columns: 2fr 7fr;
 }
 
+p {
+  font-size: 14px;
+  color: gray;
+}
+
+h1 {
+  font-size: 20px;
+}
+
 .side-bar {
   background-color: blue;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-rows: auto auto auto;
   color: white;
   align-content: start;
   row-gap: 50px;
   padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title img {
+  filter: invert(1);
+  width: 32px;
 }
 
 li {
   list-style: none;
-}
-
-.content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
 header {
@@ -50,7 +72,7 @@ header {
   gap: 24px;
 }
 
-#icon {
+.icon {
   width: 20px;
 }
 
@@ -59,6 +81,11 @@ header {
   width: 36px;
   border-radius: 100%;
   background-color: beige;
+  overflow: hidden;
+}
+
+.avatar-wrapper img {
+  width: 100%;
 }
 
 input {
@@ -74,6 +101,11 @@ input {
   height: 50px;
   border-radius: 100%;
   background-color: beige;
+  overflow: hidden;
+}
+
+.avatar-wrapper-big img {
+  width: 100%;
 }
 
 button {
@@ -86,14 +118,65 @@ button {
 
 main {
   display: grid;
-  grid-template-columns: 5fr 1fr;
+  grid-template-columns: 5fr 2fr;
   padding: 20px;
+  gap: 18px;
   background-color: #e8ecf0;
-  height: 100vh;
 }
 
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  margin-top: 6px;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 24px 16px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #f5a623;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-row {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 28px;
+}
+
+.widgets {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.widgets .card {
+  border: none;
+  margin-top: 6px;
+  gap: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.widgets p {
+  font-size: 10px;
+}
+
+.widget-text {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.user-name h6 {
+  font-weight: normal;
 }
